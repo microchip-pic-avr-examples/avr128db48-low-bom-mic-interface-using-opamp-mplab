@@ -20,6 +20,7 @@ Three internal op amps are available for configuration in the AVR DB. The config
 * [MPLAB® X](https://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
 * [MPLAB® XC8 Compiler](https://www.microchip.com/mplab/compilers) v2.20 or later
 * MPLABX AVR-Dx_DFP version 1.4.75 or later
+* For the Studio version of this project, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-low-bom-mic-interface-using-opamp)
 ## Hardware Used
 
 * [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/EV35L43A)
