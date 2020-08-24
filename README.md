@@ -36,7 +36,7 @@ Three internal op amps are available for configuration in the AVR DB. The config
 * Connect the AVR128DB48 Curiosity Nano to a computer using a USB cable
 * Download the zip file or clone the example to get the source code
 * Open `avr128db48-low-bom-mic-interface-using-opamp.X` in MPLAB
-* Press the make and program button to program the device.
+* Press the make and program button to program the device
 * If no tool has been chosen, a window will open, select the AVR128DB48 Curiosity Nano. Tool can also be choosen in the project settings.   
 
 ## Conclusion
