@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "Low-BOM Microphone Interface Using the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "avr128db48-low-bom-mic-interface-using-opamp-mplab",
-        "shortDescription": "Low-BOM Microphone Interface Using the Analog Signal Conditioning (OPAMP) Peripheral",
+        "shortDescription": "This application note describes how to interface an electret microphone with a microcontroller (MCU) using the Analog Signal Conditioning (OPAMP) peripheral. In addition to the microphone, only one resistor and one capacitor are required. The OPAMP peripheral also provides the ability to adjust the gain under firmware control.",
         "ide": {
             "name": "MPLABX",
             "semverRange": ">=5.40"
@@ -20,7 +20,11 @@
         ],
         "dfp": {
             "name": "AVR-Dx_DFP",
-            "semverRange": ">=1.4.75"
+            "semverRange": "^1.4.75"
+        },
+		"configurator": {
+        	"name": "N/A",
+            "semverRange": ""
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -34,28 +38,36 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "",
             [
-                "Device Family", "AVR DB"
+               "Peripherals", "OPAMP"
+            ],
+			[
+               "Peripherals", "ADC"
+            ],
+			[
+               "Peripherals", "VREF"
+            ],
+			[
+               "Peripherals", "AC"
             ],
             [
-                "Development Board", "AVR128DB48 Curiosity Nano"
-            ]
+               "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]     
         ],
         "peripherals": [
             "OPAMP", "ADC", "VREF", "AC"
         ],
         "keywords": [
-        "Analog Signal Conditioning",
-		"Operational Amplifier",
-		"Op Amp",
-		"Resistor Ladder",
-		"Electret Microphone",
-		"Amplifier",
-		"Adjustable Gain",
-		"Programmable Gain",
-        "Low BOM",
-		"PGA"
+			"Analog Signal Conditioning",
+			"Operational Amplifier",
+			"Op Amp",
+			"Resistor Ladder",
+			"Electret Microphone",
+			"Amplifier",
+			"Adjustable Gain",
+			"Programmable Gain",
+			"Low BOM",
+			"PGA"
         ],
         "additionalData": {
             "longDescription": {
