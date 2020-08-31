@@ -12,7 +12,7 @@ Three internal op amps are available for configuration in the AVR DB. The config
 ## Related Documentation
 
 * [AN3631 - Low-BOM Microphone Interface Using the Analog Signal Conditioning (OPAMP) Peripheral](https://microchip.com/DS00003631)
-* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
+* [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
