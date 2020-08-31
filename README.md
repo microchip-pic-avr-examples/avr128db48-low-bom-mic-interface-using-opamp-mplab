@@ -1,7 +1,7 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# AVR128DB48 Low-BOM Microphone Interface Using the Analog Signal Conditioning (OPAMP) Peripheral
+# Low-BOM Microphone Interface Using the Analog Signal Conditioning (OPAMP) Peripheral
 <p align="left">
   <img width=800px height=auto src="images/setup.png">
 </p>
