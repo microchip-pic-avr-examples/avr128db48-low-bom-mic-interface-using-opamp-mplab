@@ -27,20 +27,20 @@
 
 #include <avr/io.h>
 
-//To program the fuse bits, the FUSE macro is used. The fuse settings are set to the devices production values.  
+//To program the fuse bits, the FUSE macro is used. The fuse settings are set to the devices production values.
 FUSES = {
-	.WDTCFG = 0x00, // WDTCFG {PERIOD=OFF, WINDOW=OFF}
-	.BODCFG = 0x10, // BODCFG {SLEEP=DISABLE, ACTIVE=DISABLE, SAMPFREQ=32Hz, LVL=BODLEVEL0}
-	.OSCCFG = 0x78, // OSCCFG {CLKSEL=OSCHF}
-	.SYSCFG0 = 0xF6, // SYSCFG0 {EESAVE=CLEAR, CRCSEL=CRC32, CRCSRC=NOCRC}
-	.SYSCFG1 = 0xE8, // SYSCFG1 {SUT=0MS, MVSYSCFG=DUAL}
-	.CODESIZE = 0x00, // CODESIZE
-	.BOOTSIZE = 0x00, // BOOTSIZE
+    .WDTCFG = 0x00, // WDTCFG {PERIOD=OFF, WINDOW=OFF}
+    .BODCFG = 0x00, // BODCFG {SLEEP=DISABLE, ACTIVE=DISABLE, SAMPFREQ=128Hz, LVL=BODLEVEL0}
+    .OSCCFG = 0x00, // OSCCFG {CLKSEL=OSCHF}
+    .SYSCFG0 = 0xC0, // SYSCFG0 {EESAVE=DISABLE, RSTPINCFG=INPUT, CRCSEL=CRC16, CRCSRC=NOCRC}
+    .SYSCFG1 = 0x08, // SYSCFG1 {SUT=0MS, MVSYSCFG=DUAL}
+    .CODESIZE = 0x00, // CODESIZE
+    .BOOTSIZE = 0x00, // BOOTSIZE
 };
 //Macro used to set lockbits. Set to production value.
 LOCKBITS = {
-	0x5CC5C55C, // KEY {KEY=NOLOCK}
-};
+    0x5CC5C55C, // KEY {KEY=NOLOCK}
+};  
 
 
 int main(void)
